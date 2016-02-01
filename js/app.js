@@ -7,7 +7,8 @@ var count = 0;
 $('#postButton').on('click', function(e) {
 		e.preventDefault()
 	var userPost = document.getElementById('userText').value;
-	if (userPost == '' ) {
+	if(!something) {
+	// if (userPost == '' ) {
 		alert('You cannot submit an empty box');
 			
 	} else {
@@ -22,6 +23,7 @@ $('#postButton').on('click', function(e) {
 
 function getInput(userPost) {
 	var $newLi = document.createElement('li');
+	
 	$('ul').append('<li>' + userPost + '</li>');
 	var clickCount = 'posts' + count;
 

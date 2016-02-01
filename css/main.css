@@ -128,9 +128,11 @@ li#resize {
   .container {
   	max-width: 400px;
   }
-  input #userInput {
-  	font-size: 45px;
+
+  input#userText {
+	font-size: .7em;
   }
+
 }
 
 @media only screen and (max-width: 400px) {
@@ -140,9 +142,11 @@ li#resize {
 
   body {
   	background-image: none;
-	background-color: #A02F3E;
+	background-color: #14585B;
+ }
 }
 
+ 
 
 
 
